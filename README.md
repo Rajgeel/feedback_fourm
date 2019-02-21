@@ -1,6 +1,6 @@
 # Students Feedback on Academic Courses
 
-It is a System which provide a platform for every student to give their anomalous response regarding each subject at the end of their semester.
+It is a system which provide a platform for every student to give their anomalous response regarding each subject at the end of their semester.
 
 ## Getting Started
 
