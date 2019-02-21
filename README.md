@@ -5,7 +5,7 @@ It is a system which provide a platform for every student to give their anomalou
 ## Getting Started
 
 
-Through this student gives response about the lecture quality, assignment quality and any other messages or opinion regarding subject which the want to share with their respective teachers.
+Through this student gives response about the lecture quality, assignment quality and any other messages or opinion regarding subjects which they want to share with their respective teachers.
 
 ### Prerequisites
 
