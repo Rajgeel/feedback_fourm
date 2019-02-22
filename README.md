@@ -20,7 +20,7 @@ MongoDB
 
 ### Installing
 
-##### Installtion steps for MongoDB 
+#### Installtion steps for MongoDB 
 
 Say what the step will be
 
