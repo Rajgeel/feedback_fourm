@@ -20,18 +20,18 @@ MongoDB
 
 ### Installing
 
-#### Installtion steps for MongoDB 
+##### Installtion steps for MongoDB 
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+Search for 
 
 ```
-until finished
+https://www.mongodb.com
+```
+
+go to
+
+```
+:12: click on
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
