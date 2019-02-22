@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -10,23 +11,23 @@
 	</head>
 	<body>
 		<div class="jumbotron">
-						<h1 class ="text-center">Subject Feedback Form</h1>
-					</div>
+			<h1 class ="text-center">Subject Feedback Form</h1>
+		</div>
 		<div class="container" float>
 			<div class="row">
 				<div class="col-lg-6">
 					<form action="http://localhost:5000/project" method="post">
 							<div class="form-group">
-								<label for="name"  >Name</label>
-								<input type="text" class="form-control" required id="name"/>
+								<label for="name">Name</label>
+								<input type="text" class="form-control" required id="name" name = "name" placeholder="Mahatma Gandhi" pattern="[A-Za-z]{1,15}"/>
 							</div>
 							<div class="form-group">
-								<label for="roll" >Roll No.</label>
-								<input type="text" class="form-control" required id="roll"/>
+								<label for="roll_no">Roll No.</label>
+								<input type="text" name = "roll_no" class="form-control" required id="roll"/>
 							</div>
 							<div class="form-group">
 	  							<label for="sem"  >Semester</label>
-	  							<select class="form-control" required id="sem">
+	  							<select class="form-control" name ="sem" required id="sem">
 	    						<option>1st</option>
 	    						<option>2nd</option>
 	    						<option>3rd</option>
@@ -38,25 +39,29 @@
 	  							</select>
 							</div>
 							<div class="form-group">
-								<label for="code">Subject Code</label>
-								<input type="text" class="form-control" required id="code"/>
+								<label for="sub_code">Subject Code</label>
+								<input type="text" class="form-control" required name = "sub_code" id="code" placeholder="XX000" pattern="[a-z]{2}+[1-9]{3}"/>
 							</div>
 							<div class="form-group">
-								<label for="lecture" required>Lecture Quality</label>
-								<label class="radio-inline"><input type="radio" name="optradio">worst</label>
-								<label class="radio-inline"><input type="radio" name="optradio">bad</label>
-								<label class="radio-inline"><input type="radio" name="optradio" checked="true">not bad not good</label>
-								<label class="radio-inline"><input type="radio" name="optradio">good</label>
-								<label class="radio-inline"><input type="radio" name="optradio">excellent</label>
+								<label  id = "lec" name = "lec" required>Lecture Quality</label>
+								<label class="radio-inline"><input type="radio" name="lec">worst</input></label>
+								<label class="radio-inline"><input type="radio" name="lec">bad</input></label>
+								<label class="radio-inline"><input type="radio" name="lec" checked="true">not bad not good</input></label>
+								<label class="radio-inline"><input type="radio" name="lec">good</input></label>
+								<label class="radio-inline"><input type="radio" name="lec">excellent</input></label>
 							</div>
 							<div class="form-group">
-								<label for="assign" required>Assignment Quality</label>
-								<label class="radio-inline"><input type="radio" name="optradio1">worst</label>
-								<label class="radio-inline"><input type="radio" name="optradio1">bad</label>
-								<label class="radio-inline"><input type="radio" name="optradio1" checked="true">not bad not good</label>
-								<label class="radio-inline"><input type="radio" name="optradio1">good</label>
-								<label class="radio-inline"><input type="radio" name="optradio1">excellent</label>
+								<label for="assign" id = "assign" name = "assign" required>Assignment Quality</label>
+								<label class="radio-inline"><input type="radio" name="assign">worst</label>
+								<label class="radio-inline"><input type="radio" name="assign">bad</label>
+								<label class="radio-inline"><input type="radio" name="assign" checked="true">not bad not good</label>
+								<label class="radio-inline"><input type="radio" name="assign">good</label>
+								<label class="radio-inline"><input type="radio" name="assign">excellent</label>
 							</div>
+							<div class="form-group">
+    							<label>Any Comment</label>
+    							<textarea class="form-control" id="otherText" name = "otherText" rows="3" placeholder="optional"></textarea>
+ 							</div>
 							<div class="col-md-15 text-center"> 
 								<input class="btn btn-primary" type="submit" value="submit">
 							</div>
