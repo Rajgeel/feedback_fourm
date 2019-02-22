@@ -24,7 +24,7 @@ Bootstrap
 
 ##### Installation and running steps for MongoDB 
 
-Search for link below and install.
+Link given below to install.
 
 - [https://www.mongodb.com](https://www.mongodb.com)
 
@@ -52,7 +52,7 @@ run for mongo.
 
 ##### Installation steps for Python 
 
-Search for link below.
+Link given below to install .
 
 - [https://www.python.org](https://www.python.org)
 
