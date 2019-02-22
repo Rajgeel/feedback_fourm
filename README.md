@@ -10,7 +10,7 @@ Through this system, the student can give feedback on lecture quality, assignmen
 
 ### Prerequisites
 
-You need to install this software
+You need to install these softwares
 
 ```
 Python
@@ -51,7 +51,7 @@ run for mongo.
 
 ```
 
-##### Installation and running steps for Python 
+##### Installation steps for Python 
 
 Search for link below.
 
@@ -59,20 +59,28 @@ Search for link below.
 https://www.python.org
 ```
 
+##### Installation steps for Flask 
+
+Go to terminal.
+
+```
+pip install flask.
+```
+
 
 
 ## Running the tests
 
-First run the MangoDB and then run the real.py
-These project.html, submit.html, exits.html should be in template folder.
-And real.py and template folder should be in same directory.
+- First run the MangoDB and then run the real.py. 
+- These project.html, submit.html, exits.html should be in template folder.
+- And real.py and template folder should be in same directory.
 
-### We check the inserted data in our database system
+#### We check the inserted data in our database system
 
 Given below steps make sure that insereted data is inserted or not. 
 
 ```
-Go to that termial in which you run the mongo cell
+Go to that terminal in which you run the mongo cell.
 db.student.find()
 ```
 
