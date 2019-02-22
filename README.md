@@ -27,7 +27,7 @@ Bootstrap
 Search for link below and install.
 
 ```
-https://www.mongodb.com
+[https://www.mongodb.com](https://www.mongodb.com)
 ```
 
 After installation
