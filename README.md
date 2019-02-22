@@ -20,9 +20,9 @@ MongoDB
 
 ### Installing
 
-##### Installation steps for MongoDB 
+##### Installation and running steps for MongoDB 
 
-Search for 
+Search for given below link and install.
 
 ```
 https://www.mongodb.com
@@ -31,8 +31,21 @@ https://www.mongodb.com
 After installation
 
 ```
-Made a data folder in c: drive
-Inside data folder made a db folder
+Made a data folder in c: drive.
+Inside data folder made a db folder.
 ```
+
+How to run 
+
+```
+First open the terminal.
+Navigate to bin folder of mongodb, where mangodb was insatalled.
+run mongod
+
+open another terminal.
+Navigate to bin folder of mongodb, where mangodb was insatalled.
+run mongo.
+```
+
 
 End with an example of getting some data out of the system or using it for a little demo
