@@ -78,7 +78,7 @@ Given below steps make sure that insereted data is inserted or not.
 
 ```
 Go to that terminal in which you run the mongo cell.
-db.student.find()
+db.getCollection('students').find({})
 ```
 
 
