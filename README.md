@@ -14,7 +14,9 @@ You need to install this software
 
 ```
 Python
+Flask
 MongoDB
+Bootstrap
 ```
 
 
@@ -40,12 +42,21 @@ How to run
 ```
 First open the terminal.
 Navigate to bin folder of mongodb, where mangodb was insatalled.
-run mongod
+run for mongod.
+
 
 open another terminal.
 Navigate to bin folder of mongodb, where mangodb was insatalled.
-run mongo.
+run for mongo.
+
+```
+
+##### Installation and running steps for Python 
+
+Search for given link below.
+
+```
+https://www.python.org
 ```
 
 
-End with an example of getting some data out of the system or using it for a little demo
