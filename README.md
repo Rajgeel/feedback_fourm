@@ -31,7 +31,7 @@ https://www.mongodb.com
 go to
 
 ```
-:+12: click on
+:point_right: click on
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
