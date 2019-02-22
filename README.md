@@ -60,3 +60,22 @@ https://www.python.org
 ```
 
 
+
+## Running the tests
+
+First run the MangoDB and then run the real.py
+These project.html, submit.html, exits.html should be in template folder.
+And real.py and template folder should be in same directory.
+
+### We check the inserted data in our database system
+
+Given below steps make sure that insereted data is inserted or not. 
+
+```
+Go to that termial in which you run the mongo cell
+db.student.find()
+```
+
+
+
+
