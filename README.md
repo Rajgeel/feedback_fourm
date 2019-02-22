@@ -5,13 +5,14 @@ It is a system which provide a platform for every student to give their anomalou
 ## Getting Started
 
 
-Through this student gives response about the lecture quality, assignment quality and any other messages or opinion regarding subjects which they want to share with their respective teachers.
+Through this system student can give feedback on lecture quality, assignment quality and many other things with any messages or opinion regarding subjects which they want to share with their respective teachers.
 
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You need to install these softwares
 
 ```
-Give examples
+Pytnon
+MongoDB
 ```
